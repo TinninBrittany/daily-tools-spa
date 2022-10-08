@@ -11,6 +11,19 @@
 # production
 /build
 
+#vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.prettierrc
+.prettierignore
+
+# Local History for Visual Studio Code
+.history/
+
 # misc
 .DS_Store
 .env.local
